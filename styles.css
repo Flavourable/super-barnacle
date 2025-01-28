@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#champion-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.champion-card {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.champion-card:hover {
+    background-color: #ddd;
+}
+
+#champion-details {
+    margin-top: 20px;
+}
+
+.build-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.build-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
